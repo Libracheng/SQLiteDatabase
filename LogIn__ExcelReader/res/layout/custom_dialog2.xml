@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/loginForm"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+    <TableRow>  
+  
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:text="已有用户名:"  
+            android:textSize="15sp" />  
+        <!-- 输入用户名的文本框 -->  
+  
+        <EditText  
+            android:id="@+id/findName"
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:hint="请填写已有登录帐号"  
+            android:selectAllOnFocus="true"
+            android:textSize="13sp"
+            android:background="@drawable/edittextshape"  />  
+    </TableRow>  
+  
+    <TableRow>  
+  
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:text="修改密码:"  
+            android:textSize="15sp" />  
+        <!-- 输入密码的文本框 -->  
+  
+        <EditText  
+            android:id="@+id/updatePassword"
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:password="true"
+            android:textSize="13sp"
+            android:background="@drawable/edittextshape" />  
+    </TableRow>  
+  
+  
+  
+</TableLayout>  
